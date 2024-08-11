@@ -5,13 +5,14 @@ margin:0;
 .sidemenu{
 width:19%;
 margin:5px;
-background-color:lightgray;
+background-color:lightblue;
 }
 
 .content{
 width:80%;
 margin:5px;
-background-color:lightgray;
+background-image:url(../img/bokohaikei.png);
+background-repeat: repeat;
 }
 
 .flexbox{
