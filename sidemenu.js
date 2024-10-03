@@ -1,6 +1,6 @@
 const text =
 `<div class='sidemenu'>
-<nav>
+<nav id=sidemenu">
     <ul>
         <li><a href='index.html'>トップ</a>
         <li><a href='bot.html'>botコマンド</a>

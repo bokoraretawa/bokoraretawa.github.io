@@ -19,13 +19,15 @@ body{
 a{
   color:black;
 }
-
 a:hover{
   color:red;
 }
-
 a:active{
   color:yellow;
+}
+
+.menubutton{
+display:none;
 }
 
 .sidemenu{
@@ -33,7 +35,7 @@ width:19%;
 margin:5px;
 background-color:lightblue;
 font-family:"Dela Gothic One",sans-serif;
-font-weight: 400;
+font-weight: 500;
 font-style: normal;
 }
 
@@ -78,4 +80,36 @@ background-color:white;
 
 .img{
 height:380px;
+}
+
+@media (max-width:600px) {
+  .menubutton{
+    display:block;
+  }
+
+  .flexbox,.flexbox2{
+    flex-flow: column;
+  }
+  
+  .content{
+    width:100%;
+    margin:0;
+  }
+
+  nav {
+    background: #0bd;
+    position: absolute;
+    z-index: 1;
+    top: 3.125rem;
+    right: 0;
+    overflow-x: hidden;
+    text-align: left;
+    width: 0; /* ←100%から 0 に変更 */
+  }
+   
+  /* メニューを開いた時 */
+  nav.open-menu {
+    width: 100%;
+\\
+  }
 }
