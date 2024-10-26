@@ -4,11 +4,13 @@ h1{
   font-style: normal;
   color:red;
   font-style:italic;
+  font-size:50px;
+  margin:5px;
 }
-
-h2{
-margin:0;
-}
+h2{margin:5px; font-size:35px;}
+h3{margin: 5px;}
+h4{margin:5px;}
+p{margin:0;}
 
 body{
   font-family: "Zen Maru Gothic", serif;
@@ -16,19 +18,17 @@ body{
   font-style: normal;
 }
 
-a{
-  color:black;
-}
-a:hover{
-  color:red;
-}
-a:active{
-  color:yellow;
+a{color:black;}
+a:hover{color:red;}
+a:active{color:yellow;}
+
+ul{
+  list-style:none;
+  padding:5px;
 }
 
-.menubutton{
-display:none;
-}
+.menubutton{display:none;
+background:lightcyan;}
 
 .sidemenu{
 width:19%;
@@ -39,12 +39,16 @@ font-weight: 500;
 font-style: normal;
 }
 
-ul{
-list-style:none;
-padding:5px;
-}
+.qamenu{text-decoration:none;}
+.qamenu:hover{text-decoration-line:underline;}
+#live2Dcomission{background:whitesmoke;}
+#illustcomission{background:whitesmoke;}
+#othercomission{background:whitesmoke;}
+#qaul{background:azure;}
+#comissionpoint{background:whitesmoke;}
+.link{background:whitesmoke;}
 
-li:nth-child(2) {
+.libot {
 background: url(../img/nightbot.gif) no-repeat 0 0;
   background-size:auto 20px;
   padding-left: 25px;
@@ -53,8 +57,7 @@ background: url(../img/nightbot.gif) no-repeat 0 0;
 .content{
 width:80%;
 margin:5px;
-background-image:url(../img/bokohaikei.png);
-background-repeat: repeat;
+background:white;
 }
 
 .flexbox{
@@ -71,25 +74,15 @@ align-items: center;
 display:flex;
 flex-direction:row;
 align-items: center;
+background:whitesmoke;
 }
 
 .info{
-width:300px;
-height:380px;
-background-color:white;
 }
 
-.img{
-height:380px;
-}
-
-.kiriban{
-  text-align: center;
-}
-
-.thankslink{
-  text-decoration: none;
-}
+.img{height:380px;}
+.kiriban{text-align: center;}
+.thankslink{text-decoration: none;}
 
 @media (max-width: 1000px) {
   .menubutton{
@@ -126,7 +119,7 @@ height:380px;
   }
 
   h2{
-    font-size:6vw;
+    font-size:5vw;
   }
   .img{
     width:50%;
