@@ -6,11 +6,13 @@ h1{
   font-style:italic;
   font-size:50px;
   margin:5px;
+  text-decoration:underline;
 }
 h2{margin:5px; font-size:35px;}
 h3{margin: 5px;}
 h4{margin:5px;}
 p{margin:0;}
+.Youtubelink{width:720px;height:405px;};
 
 body{
   font-family: "Zen Maru Gothic", serif;
@@ -77,21 +79,21 @@ align-items: center;
 background:whitesmoke;
 }
 
-.info{
-}
 
 .img{height:380px;}
 .kiriban{text-align: center;}
 .thankslink{text-decoration: none;}
+.links{width:75px;}
+.newcontent{background:whitesmoke;}
+
 
 @media (max-width: 1000px) {
   .menubutton{
     display:block;
   }
 
-  .flexbox{
-    flex-flow: column;
-  }
+  .flexbox{flex-flow: column;}
+  .links{width:15%;}
   
   .content{
     width:100%;
@@ -110,17 +112,11 @@ background:whitesmoke;
   }
    
   /* メニューを開いた時 */
-  nav.open-menu {
-    width: 100%;
-\\
-  }
-  h1{
-    font-size:6vw;
-  }
+  nav.open-menu {width: 100%;}
+  h1{font-size:6vw;}
+  h2{font-size:5vw;}
+  div{margin:10px}
 
-  h2{
-    font-size:5vw;
-  }
   .img{
     width:50%;
     height:50%;
@@ -133,4 +129,6 @@ background:whitesmoke;
   .kiriban{
     font-size:2vw;
   }
+  
+  .Youtubelink{width:100%;};
 }
