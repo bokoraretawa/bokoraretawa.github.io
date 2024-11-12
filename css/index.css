@@ -4,9 +4,8 @@ body{
   font-style: normal;
 }
 
-
 .flexbox{display:flex;}
-.menubutton{display:none;background:lightcyan;}
+.menubutton{display:none;border:none;background:none;}
 
 h1{
   font-family:"Dela Gothic One",sans-serif;
@@ -30,6 +29,16 @@ ul{list-style:none;padding:5px;}
 background: url(../img/nightbot.gif) no-repeat 0 0;
 background-size:auto 20px;
 padding-left: 25px;}
+.lihome{
+  background:url(../img/home.png) no-repeat 0 0;
+  background-size:auto 20px;
+  padding-left: 25px;
+}
+.lipic{
+  background:url(../img/liimg.png) no-repeat 0 0;
+  background-size:auto 20px;
+  padding-left: 25px;
+}
 
 .sidemenu{
   width:19%;
@@ -88,7 +97,7 @@ background:whitesmoke;
 
 
 @media (max-width: 1000px) {
-  .menubutton{display:block;}
+  .menubutton{display:block;width:200px;}
   .flexbox{flex-flow: column;}
   .links{width:15%;}
   .content{width:100%;margin:0;}
@@ -96,19 +105,20 @@ background:whitesmoke;
   .BannerSample{width:100%;}
   details{width:95%;}
 
+  .sidemenu{text-align:center;}
+  /* メニューを開いた時 */
+  nav.open-menu {width: 50%;}
+
   nav {
     background: #0bd;
     position: absolute;
     z-index: 1;
-    top: 3.125rem;
-    right: 0;
+    top: 4.5em;
+    left:30px;
     overflow-x: hidden;
     text-align: left;
     width: 0; /* ←100%から 0 に変更 */
   }
-   
-  /* メニューを開いた時 */
-  nav.open-menu {width: 100%;}
   h1{font-size:6vw;}
   h2{font-size:5vw;}
   div{margin:10px}
