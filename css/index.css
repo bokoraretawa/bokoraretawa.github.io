@@ -46,9 +46,10 @@ padding-left: 25px;}
 .qamenu{text-decoration:none;}
 .qamenu:hover{text-decoration-line:underline;}
 
-#Live2DSD{background:whitesmoke;}
-#live2Dcomission{background:whitesmoke;}
-#Live2DOther{background:whitesmoke;}
+#Live2DSD{background:whitesmoke;margin:5px;}
+#live2Dcomission{background:whitesmoke;margin:5px;}
+#Live2DOther{background:whitesmoke;margin:5px;}
+details{border:solid 5px;border-color:lightgray;margin:5px;width:70%;}
 
 #illustcomission{background:whitesmoke;}
 #othercomission{background:whitesmoke;}
@@ -93,6 +94,7 @@ background:whitesmoke;
   .content{width:100%;margin:0;}
   .stampsample{width:100%;}
   .BannerSample{width:100%;}
+  details{width:95%;}
 
   nav {
     background: #0bd;
