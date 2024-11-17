@@ -24,7 +24,7 @@ p{margin:0;}a{color:black;}
 a:hover{color:red;}
 a:active{color:yellow;}
 
-ul{list-style:none;padding:5px;}
+ul{list-style:none;padding:5px;font-size:20px;}
 .libot {
 background: url(../img/nightbot.gif) no-repeat 0 0;
 background-size:auto 20px;
