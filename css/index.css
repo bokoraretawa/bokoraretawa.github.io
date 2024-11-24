@@ -101,8 +101,8 @@ background:whitesmoke;
   .flexbox{flex-flow: column;}
   .links{width:15%;}
   .content{width:100%;margin:0;}
-  .stampsample{width:100%;}
-  .BannerSample{width:100%;}
+  .stampsample{width:50%;}
+  .BannerSample{width:80%;}
   details{width:95%;}
 
   .sidemenu{text-align:center;}
