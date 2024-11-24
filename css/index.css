@@ -2,9 +2,10 @@ body{
   font-family: "Zen Maru Gothic", serif;
   font-weight: 400;
   font-style: normal;
+  background-image:url(../img/pastel_00010.jpg);
+  background-size:cover;
 }
 
-.flexbox{display:flex;}
 .menubutton{display:none;border:none;background:none;}
 
 h1{
@@ -23,6 +24,13 @@ h4{margin:5px;}
 p{margin:0;}a{color:black;}
 a:hover{color:red;}
 a:active{color:yellow;}
+
+.flexbox{display:flex;}
+.flexbox2{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
 
 ul{list-style:none;padding:5px;font-size:20px;}
 .libot {
@@ -43,15 +51,24 @@ padding-left: 25px;}
 .sidemenu{
   width:19%;
   margin:5px;
-  background-color:lightblue;
+  background-color:rgb(255 255 255 / 80%);
   font-family:"Dela Gothic One",sans-serif;
   font-weight: 500;
   font-style: normal;
 }
-      
 
+.link{}
+.content{
+  width:80%;
+  margin:5px;
+  background:rgb(255 255 255 / 80%);
+}
+.newcontent{}
+
+.stampsample{width:500px;}
+.BannerSample{width:500px;}
 .Youtubelink{width:720px;height:405px;};
-.menubutton{display:none;background:lightcyan;}
+.menubutton{display:none;}
 .qamenu{text-decoration:none;}
 .qamenu:hover{text-decoration-line:underline;}
 
@@ -64,28 +81,10 @@ details{border:solid 5px;border-color:lightgray;margin:5px;width:90%;}
 #othercomission{background:whitesmoke;}
 #qaul{background:azure;}
 
-.link{background:whitesmoke;}
-.stampsample{width:500px;}
-.BannerSample{width:500px;}
-
-
-.content{
-width:80%;
-margin:5px;
-background:white;
-}
-
 .counter-area{
 display:flex;
 justify-content: center;
 align-items: center;
-}
-
-.flexbox2{
-display:flex;
-flex-direction:row;
-align-items: center;
-background:whitesmoke;
 }
 
 
@@ -93,7 +92,6 @@ background:whitesmoke;
 .kiriban{text-align: center;}
 .thankslink{text-decoration: none;}
 .links{width:75px;}
-.newcontent{background:whitesmoke;}
 
 
 @media (max-width: 1000px) {
