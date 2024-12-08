@@ -121,7 +121,7 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
   nav.open-menu {width: 50%;}
 
   nav {
-    background: #0bd;
+    background: url(../img/pastel_00010.jpg);
     position: absolute;
     z-index: 1;
     top: 4.5em;
