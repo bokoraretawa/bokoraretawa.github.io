@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <title>ぼこぼこちゃんのホームページ</title>
-        <link rel="stylesheet" href="css/index.css">
 
         <!--やりたいこと一覧
         ・カーソル変更
@@ -23,6 +22,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=DotGothic16&family=Kaisei+Decol&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000, // 画像がスライドするスピード
+                slideWidth: 720, // 画像の横幅
+            });
+        });</script>
+        <link rel="stylesheet" href="css/index.css">
+</script>
+
     </head>
     <body>
         <div class="flexbox">
@@ -35,32 +49,40 @@
                     <h2 style='font-family: "Kaisei Decol",serif;font-weight: 400;font-style: normal;'>人目の迷い人†</h2>
                 </div><!--counter-area-->
 
-                <div class="flexbox2">
-                    <img src="img/icon.png" class="img">
-                    <div class="info">
-                        <h4>【配信頻度】</h4>
-                        週2回くらい<br>
-                        <h4>【配信開始時間】</h4>
-                        11時～18時<br>
-                        あるいは21～22時<br>
-                        <br>
-                    </div><!--info-->
-                </div><!--flexbox2-->
+                <div class="sliderdiv">
+                    <div class="slider">
+                        <img class="sliderimg" src="img/ぼこV3.png" alt="">
+                        <img class="sliderimg"  src="img/月予定表2024秋.png" alt="">
+                    </div>
+                </div>
+
                 <div class="link">
-                    <h3>【配信・動画】</h3>
-                    <a href="https://www.twitch.tv/bokoraretawa" target="_blank" rel="noopener noreferrer"><img src="img/twitch.png" class="links" alt="twitch"></a>
-                    <a href="https://youtube.com/@bokoraretawa" target="_blank" rel="noopener noreferrer"><img src="img/youtube.png" class="links" alt="youtube"></a>
-                    <h3>【モデル販売・配布】</h3>
-                    <a href="https://nizima.com/Profile/369006" target="_blank" rel="noopener noreferrer"><img src="img/nizima.png" class="links" alt="nizima"></a>
-                    <a href="https://bokoraretawa.booth.pm/" target="_blank" rel="noopener noreferrer"><img src="img/booth.png" class="links" alt="booth"></a>
-                    <h3>【ご依頼】</h3>
-                    <a href="https://skeb.jp/@BOKORARETAWA" target="_blank" rel="noopener noreferrer"><img src="img/skeb.png" class="links" alt="skeb" ></a>
-                    <a href="https://skima.jp/profile?id=422471" target="_blank" rel="noopener noreferrer"><img src="img/skima.png" class="links" alt="skima"></a>
-                    <a href="https://coconala.com/users/5037021" target="_blank" rel="noopener noreferrer"><img src="img/coconala.png" class="links" alt="coconala"></a>
-                    <h3>【Contact】</h3>
-                    <a href="https://twitter.com/BOKORARETAWA" target="_blank" rel="noopener noreferrer"><img src="img/twitter.png" class="links" alt="twitter"></a>
-                    <a href="https://bsky.app/profile/bokoraretawa.bsky.social" target="_blank" rel="noopener noreferrer"><img src="img/bluesky.png" class="links" alt="bluesky"></a>
-                    <a href="https://wavebox.me/wave/a6rm4vicaz7he5rm/" target="_blank" rel="noopener noreferrer"><img src="img/wavebox.png" class="links" alt="wavebox"></a>
+                    <div class="linkflex">
+                        <div class="stream-live2D">
+                            <div class="stream">
+                                <h3>【配信・動画】</h3>
+                                <a href="https://www.twitch.tv/bokoraretawa" target="_blank" rel="noopener noreferrer"><img src="img/twitch.png" class="links" alt="twitch"></a>
+                                <a href="https://youtube.com/@bokoraretawa" target="_blank" rel="noopener noreferrer"><img src="img/youtube.png" class="links" alt="youtube"></a>
+                            </div>
+                            <div class="live2D">
+                                <h3>【モデル販売・配布】</h3>
+                                <a href="https://nizima.com/Profile/369006" target="_blank" rel="noopener noreferrer"><img src="img/nizima.png" class="links" alt="nizima"></a>
+                                <a href="https://bokoraretawa.booth.pm/" target="_blank" rel="noopener noreferrer"><img src="img/booth.png" class="links" alt="booth"></a>
+                            </div>
+                        </div>
+                        <div>
+                            <h3>【ご依頼】</h3>
+                            <a href="https://skeb.jp/@BOKORARETAWA" target="_blank" rel="noopener noreferrer"><img src="img/skeb.png" class="links" alt="skeb" ></a>
+                            <a href="https://skima.jp/profile?id=422471" target="_blank" rel="noopener noreferrer"><img src="img/skima.png" class="links" alt="skima"></a>
+                            <a href="https://coconala.com/users/5037021" target="_blank" rel="noopener noreferrer"><img src="img/coconala.png" class="links" alt="coconala"></a>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>【Contact】</h3>
+                        <a href="https://twitter.com/BOKORARETAWA" target="_blank" rel="noopener noreferrer"><img src="img/twitter.png" class="links" alt="twitter"></a>
+                        <a href="https://bsky.app/profile/bokoraretawa.bsky.social" target="_blank" rel="noopener noreferrer"><img src="img/bluesky.png" class="links" alt="bluesky"></a>
+                        <a href="https://wavebox.me/wave/a6rm4vicaz7he5rm/" target="_blank" rel="noopener noreferrer"><img src="img/wavebox.png" class="links" alt="wavebox"></a>
+                    </div>
                 </div><!--link-->
                 <div class="newcontent">
                     <h3>☆最新コンテンツ☆</h3>
