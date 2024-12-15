@@ -43,6 +43,11 @@ a:active{color:yellow;}
   display:flex;
   flex-direction:row;
 }
+.stamp{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
 
 ul{list-style:none;padding:5px;font-size:20px;}
 .libot {
@@ -82,7 +87,7 @@ padding-left: 25px;}
 .newcontent{}
 .sidemenuLinks{font-family:'Zen Maru Gothic';font-size:12px;text-decoration-line:underline;}
 
-.stampsample{width:500px;}
+.stampsample{width:300px;}
 .BannerSample{width:500px;}
 .Youtubelink{width:720px;height:405px;};
 .menubutton{display:none;}
@@ -91,20 +96,18 @@ padding-left: 25px;}
 .prURL{text-decoration-line:underline;}
 .stream{text-align:center;}
 .live2D{text-align:center;}
+.illustcomission{}
+#qaul{background:lightblue;}
 
-#Live2DSD{margin:5px;border:solid;border-color:lightgray;}
-#live2Dcomission{margin:5px;border:solid;border-color:lightgray;}
-#Live2DOther{margin:5px;border:solid;border-color:lightgray;}
+.commissionborder{margin:5px;border:solid;border-color:lightgray;}
 details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:10px;background:white;}
 
-#illustcomission{}
 #othercomission{}
-#qaul{background:lightblue;}
 
 
 .img{height:380px;}
 .kiriban{text-align: center;}
-.thankslink{text-decoration: none;}
+.thankslink{}
 .links{width:75px;}
 
 
@@ -142,6 +145,10 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
   }
   .kiriban{
     font-size:2vw;
+  }
+  .stamp{
+    flex-direction:column;
+    align-items:baseline;
   }
   
   .Youtubelink{width:100%;};
