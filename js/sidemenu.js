@@ -6,7 +6,7 @@ const text =
             <li class="libot"><a href='bot.html'>botコマンド</a>
             <li class="lipic"><a href='illust.html'>ぎゃらりー</a>
             <li class="lico"><a href='commission.html'>ご依頼関連<a>
-            <li class="liqa"><a href='qa.html'>Q&A<a>
+            <li class="liqa"><a href='rules.html'>チャットルール<a>
             <li class="li5"><a href='thanks.html'>Thanks</a>
             <li class="li6"><a href='admin.html'>管理者</a>
         </ul>
