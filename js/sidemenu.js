@@ -18,15 +18,17 @@ const text =
         <br>
         <a class="sidemenuLinks" href="https://wavebox.me/wave/a6rm4vicaz7he5rm/" target="_blank" rel="noopener noreferrer">質問箱(外部サイト)</a><br>
         <br>
+        <br>
         <div>
         <p class="sidemenuLinks" style="color:red;text-decoration:none;">【PR】
         <d style="color:black">周辺機器のご紹介
-        <br>
+        <p class="sidemenuLinks" style="color:black;text-decoration:none;font-size:15px;" >Amazon のアソシエイトとして、bokoraretawaは適格販売により収入を得ています。</p>
         ・<a class="prURL" href="https://amzn.to/3B5PSS8" target="_blank" rel="noopener noreferrer">XP-Pen Artist16</a><br>
         ・<a class="prURL" href="https://amzn.to/3ZqXoPB" target="_blank" rel="noopener noreferrer">Blue Yeti X</a><br>
         ・<a class="prURL" href="https://amzn.to/3BlV4kP" target="_blank" rel="noopener noreferrer">↑の現行品(BM400BK)</a>
         <d>
         </p>
+        <br>
     </nav>
 </div>
 <button class="menubutton"><img src="img/menu.png" style="width:100%;"></button>`;

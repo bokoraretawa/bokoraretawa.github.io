@@ -118,6 +118,7 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
   .stampsample{width:50%;}
   .BannerSample{width:80%;}
   details{width:95%;}
+  .links{width:15vw;}
 
   .sidemenu{text-align:center;}
   /* メニューを開いた時 */
@@ -158,7 +159,7 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
     width:1200px;
   }
 }
-@media (max-width:650px){
+@media (max-width:1000px){
   
   .linkflex{flex-direction:column;}
   .stream-live2D{flex-direction:row;}
