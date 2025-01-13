@@ -1,3 +1,5 @@
+/*-----基礎設定------*/
+
 body{
   font-family: "Zen Maru Gothic", serif;
   font-weight: 400;
@@ -5,9 +7,6 @@ body{
   background-image:url(../img/pastel_00010.jpg);
   background-size:cover;
 }
-
-.menubutton{display:none;border:none;background:none;}
-
 h1{
   font-family:"Dela Gothic One",sans-serif;
   font-weight: 400;
@@ -20,36 +19,24 @@ h1{
 }
 h2{margin:5px; font-size:35px;}
 h3{margin: 5px;}
-h4{margin:5px;}
-p{margin:0;}a{color:black;}
+h4{margin:5px;text-decoration:underline;}
+p{margin:0;}
+a{color:black;}
 a:hover{color:red;}
 a:active{color:yellow;}
-
-.flexbox{display:flex;}
-.counter-area{
-  display:flex;
-  justify-content: center;
-  align-items: center;
+.link{}
+.content{
+  width:80%;
+  margin:5px;
+  background:rgb(255 255 255 / 80%);
 }
-.sliderdiv{
-    display:flex;
-    justify-content:center;
-}
-.stream-live2D{
-    display:flex;
-    flex-direction:row;
-}
-.linkflex{
-  display:flex;
-  flex-direction:row;
-}
-.stamp{
-  display:flex;
-  flex-direction:row;
-  align-items: center;
-}
-
 ul{list-style:none;padding:5px;font-size:20px;}
+details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:10px;background:white;}
+
+/*-----ここまで基礎設定-----*/
+
+/*-----sidemenu-----*/
+.sidemenuLinks{font-family:'Zen Maru Gothic';font-size:12px;text-decoration-line:underline;}
 .libot {
 background: url(../img/nightbot.gif) no-repeat 0 0;
 background-size:auto 20px;
@@ -68,47 +55,83 @@ padding-left: 25px;}
   background:url(../img/lico.png) no-repeat 0 0;
   padding-left:25px;
 }
-
-.sidemenu{
+.sidemenu1div{
   width:19%;
   margin:5px;
-  background-color:rgb(255 255 255 / 80%);
   font-family:"Dela Gothic One",sans-serif;
   font-weight: 500;
   font-style: normal;
-}
+  display:block;
+  text-align: left;
 
-.link{}
-.content{
-  width:80%;
-  margin:5px;
-  background:rgb(255 255 255 / 80%);
+  background-color:rgb(255 255 255 / 80%);
 }
-.newcontent{}
-.sidemenuLinks{font-family:'Zen Maru Gothic';font-size:12px;text-decoration-line:underline;}
+.sidemenu2div{
+  width:19%;
+  margin:5px;
+  font-family:"Dela Gothic One",sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  
+  display:none;
+  text-align: left;
+}
+/*-----ここまでsidemenu*-----/
+
+/*-----toppage-----*/
+.flexbox{display:flex;}
+.counter-area{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.sliderdiv{
+    display:flex;
+    justify-content:center;
+}
+.stream-live2D{
+    display:flex;
+    flex-direction:row;
+}
+/*-----ここまでtoppage-----*/
+
+/*-----thanks-----*/
+.linkflex{
+  display:flex;
+  flex-direction:row;
+}
+.thankslink{}
+/*-----ここまでthanks-----*/
+
+/*-----commission-----*/
+.stamp{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+}
 
 .stampsample{width:300px;}
 .BannerSample{width:500px;}
 .Youtubelink{width:720px;height:405px;};
-.menubutton{display:none;}
-.qamenu{text-decoration:none;}
-.qamenu:hover{text-decoration-line:underline;}
 .prURL{text-decoration-line:underline;}
 .stream{text-align:center;}
 .live2D{text-align:center;}
 .illustcomission{}
-#qaul{background:lightblue;}
-
-.commissionborder{margin:5px;border:solid;border-color:lightgray;}
-details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:10px;background:white;}
-
-#othercomission{}
-
-
 .img{height:380px;}
-.kiriban{text-align: center;}
-.thankslink{}
 .links{width:75px;}
+.commissionborder{margin:5px;border:solid;border-color:lightgray;}
+#othercomission{}
+/*-----ここまでcommission-----*/
+
+/*-----q&a-----*/
+#qaul{
+  border:solid 5px lightblue;
+  border-radius:5px;
+  background:white;
+}
+.qamenu{text-decoration:none;}
+.qamenu:hover{text-decoration-line:underline;}
+/*-----ここまでq&a-----*/
 
 
 @media (max-width: 1000px) {
@@ -119,26 +142,28 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
   .BannerSample{width:80%;}
   details{width:95%;}
   .links{width:15vw;}
+  
+  body{font-size:3.5vw;}
+  ul{font-size:4vw;}
 
-  .sidemenu{text-align:center;}
-  /* メニューを開いた時 */
-  nav.open-menu {width: 50%;}
-
-  nav {
-    background: url(../img/pastel_00010.jpg);
-    position: absolute;
-    z-index: 1;
-    top: 4.5em;
-    left:30px;
-    overflow-x: hidden;
-    text-align: left;
-    width: 0; /* ←100%から 0 に変更 */
-  }
-  ul{font-size:30px;}
+  /*sidemenu*/
   .sidemenuLinks{font-size:20px;}
+  .sidemenu2div{display:block;width:100%;}
+  #sidemenu2{margin:0;}
+  .sidemenu1div{display:none;}
+  .sidemenuul{font-size:4vw;}
+  .webclap{width:20vw;}
+  /*sidemenu*/
+
+  /*qa*/
+  /*qa*/
+
+  /*thanks*/
+  .thankslink{text-decoration:none;}
+  /*thanks*/
 
   h1{font-size:6vw;}
-  h2{font-size:5vw;}
+  h2{font-size:5vw;margin:10px;}
 
   .img{
     width:50%;
@@ -153,6 +178,7 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
   }
   
   .Youtubelink{width:100%;};
+  
 }
 @media (min-width: 1500px) {
   .content{
@@ -163,4 +189,5 @@ details{border:solid;border-color:lightgray;margin:5px;width:70%;border-radius:1
   
   .linkflex{flex-direction:column;}
   .stream-live2D{flex-direction:row;}
+  
 }
