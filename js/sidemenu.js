@@ -8,7 +8,7 @@ const text =
         <li class="lico"><a href='commission.html'>ご依頼関連<a>
         <li class="liqa"><a href='rules.html'>ルール・質問<a>
         <li class="li5"><a href='thanks.html'>Thanks</a>
-        <li class="li6"><a href='admin.html'>管理者</a>
+        <li class="li6"><a href='admin.html'>Profile</a>
     </ul>
     <p class="sidemenuLinks" style="text-decoration:none;">↓ただの拍手です<br>↓押してもらえると喜ぶ</p>
     <a href="https://clap.fc2.com/post/bokoraretawa/?url=https%3A%2F%2Fbokoraretawa.github.io&title=%E3%81%BC%E3%81%93%E3%81%BC%E3%81%93%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8" target="_blank" title="web拍手 by FC2" ><img src="http://clap.fc2.com/images/button/white/bokoraretawa?url=https%3A%2F%2Fbokoraretawa.github.io&amp;lang=ja" alt="web拍手 by FC2" style="border:none;" / class="webclap"></a>
@@ -43,6 +43,9 @@ const text =
             <li class="li5"><a href='thanks.html'>Thanks</a>
             <li class="li6"><a href='admin.html'>管理者</a>
         </ul>
+        <a href="https://clap.fc2.com/post/bokoraretawa/?url=https%3A%2F%2Fbokoraretawa.github.io&title=%E3%81%BC%E3%81%93%E3%81%BC%E3%81%93%E3%81%A1%E3%82%83%E3%82%93%E3%81%AE%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8" target="_blank" title="web拍手 by FC2" ><img src="http://clap.fc2.com/images/button/white/bokoraretawa?url=https%3A%2F%2Fbokoraretawa.github.io&amp;lang=ja" alt="web拍手 by FC2" style="border:none;" / class="webclap"></a>
+        <br>
+        <br>
     </details>
 </div>`;
 document.write(text);
